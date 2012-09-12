@@ -1,0 +1,18 @@
+base: &common
+  Google:
+    openid: https://www.google.com/accounts/o8/id
+  Twitter:
+    id: 'zCowcooSHUM17tQJBltFA'
+    token: 'RqS6AEirMStp6Zo3zfnqCE6RVSICuk9KC5TbjP2Ar0'
+  Facebook:
+    id: '321944991192647'
+    token: 'ed46675a72f71e846213f25c3d2aa60c'
+
+development:
+  <<: *common
+
+production:
+  <<: *common
+
+test:
+  <<: *common
